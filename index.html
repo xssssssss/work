@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>英雄联盟</title>
+    <link type="text/css" rel="stylesheet" href="css/style.css"/>
+    <script type="text/javascript" src="js/script.js"></script>
+
+</head>
+<body >
+<div id="container">
+        <div class="head">
+
+            <div class="log">
+            <a href=""><img src="img/logo.png" alt="" width="200" >
+            </a>
+        </div>
+    <!-- 二级菜单 -->
+    <div class="menu">
+        <ul>
+            <li><a href="">游戏资料</a>
+                <ul class="list">
+                    <li><a href="https://lol.qq.com/download.shtml?ADTAG=innercop.lol.web.top" target="_blank">游戏下载</a></li>
+                    <li><a href="">新手指引</a></li>
+                    <li><a href="">资料库</a></li>
+                    <li><a href="">云顶之弈</a></li>
+                </ul>
+            </li>
+            <li><a href="">商城/合作</a>
+                <ul class="list">
+                    <li><a href="https://lol.qq.com/comm-htdocs/pay/new_index.htm?t=lol" target="_blank">点券充值</a></li>
+                    <li><a href="">道聚城</a></li>
+                    <li><a href="">周边商城</a></li>
+                    <li><a href="">LOL桌游</a></li>
+                </ul>
+            </li>
+            <li><a href="">社区互动</a>
+                <ul class="list">
+                    <li><a href="https://lol.qq.com/v/v2/index.shtml" target="_blank">视频中心</a></li>
+                    <li><a href="">官方微信</a></li>
+                    <li><a href="">官方微博</a></li>
+                    <li><a href="">玩家创作馆</a></li>
+                </ul>
+            </li>
+            <li><a href="">赛事官网</a>
+                <ul class="list">
+                    <li><a href="https://lpl.qq.com/es/worlds/2022/" target="_blank">全球总决赛</a></li>
+                    <li><a href="">季中冠军赛</a></li>
+                    <li><a href="">LPL职业联赛</a></li>
+                    <li><a href="">LDL发展联赛</a></li>
+                </ul>
+            </li>
+            <li><a href="">自助系统</a>
+                <ul class="list">
+                    <li><a href="https://lol.qq.com/act/a20210625icon/index.html" target="_blank">图标自助领取</a></li>
+                    <li><a href="">转区系统</a></li>
+                    <li><a href="">封号查询</a></li>
+                    <li><a href="">账号注销</a></li>
+                </ul>
+            </li>
+        </ul>
+        </div>
+    <!-- 登录图标 -->
+    <div class="login" >
+    <a href="javascript:void(0)" onclick = "denglu()">点击登录
+    <img src="img/login.png" width="35">
+    </a>
+    </div>
+</div>
+<!-- 内容 -->
+<div class="mindle">
+    <img src="img/beijing.png" width="100%" height="100%">
+</div>
+<div class="text">
+    <div class='line'><span>游戏资讯</span><a id='more' href="#">更多>></a></div>
+    <ul>
+        <li><a href="#">EDG披荆斩棘，勇夺2021年英雄联盟全球总决赛冠军！</a><p>2021-11-07</p></li>
+        <li><a href="#">热烈祝贺EDG夺冠，限时开启福利活动！</a><p>2021-11-07</p></li>
+        <li><a href="#">《英雄联盟：双城之战》开播！十年期待，一朝成真！</a><p>2021-11-07</p></li>
+        <li><a href="#">2021全球总决赛淘汰赛正式开赛！</a><p>2021-10-22</p></li>
+        <li><a href="#">2021全球总决赛淘汰赛抽签仪式</a><p>2021-10-20</p></li>
+        <li><a href="#">新英雄!愁云使者 微古丝正式上线</a><p>2021-9-26</p></li>
+    </ul>
+</div>
+<!-- 16+ -->
+<div class="right">
+        <a href=""><img src="img/age16.png" width="60"/></a>
+        <h5>提示说明：<br>
+        1）本游戏是一款MOBA类游戏，适用于年满16周岁及以上的用户，建议未成年人在家长监护下使用游戏产品。<br>
+        2）本游戏基于架空背景和幻想世界观，角色设计丰富多彩且富有个性。游戏以对抗为主要玩法，鼓励玩家提升和挑战自我。游戏中有基于文字和语音的陌生人社交系统。<br>
+        3）根据国家相关要求，游戏中有用户实名认证系统，未通过实名认证的用户不可进入游戏；认证为未成年人的用户除周五、周六、周日及法定节假日每日20时至21时外其他时间均不可进入游戏。 游戏中部分玩法和道具需要付费。根据腾讯健康系统管理规定，认证为未成年人的用户将接受以下管理： 未满12周岁的用户不能付费；12周岁以上未满16周岁的未成年人用户，单次充值金额不得超过50元人民币，每月充值金额累计不得超过200元人民币；16周岁以上的未成年人用户，单次充值金额不得超过100元人民币，每月充值金额累计不得超过400元人民币。<br>
+        4）游戏玩法包含5V5和大乱斗等丰富的团队竞技玩法，需要通过与队友的配合来取得胜利，有助于培养玩家的人际交流能力和团队协作能力。双方玩家对抗过程中，需要快速的做出躲避或反击的操作，有助于提升玩家的手眼协调和快速反应能力。</h5>
+    </div>
+<!-- 登录页面 -->
+<div id="login-box" >
+        <div class="tuichu">
+            <a  href="javascript:void(0)" onclick = "loginquxiao()">
+            <img src="img/quxiao.png" width="30"/>
+            </a>
+        </div>
+		<h1>欢迎,请登录</h1>
+		<div class="form">
+			<div class="item">
+			   <input type="text" placeholder="账号">
+			</div>
+			<div class="item">
+			   <input type="password" placeholder="密码">
+			</div>
+		</div>
+		<button>
+            <a href="javascript:void(0)" onclick = "login()">登录</a></button>
+		<button>
+            <a  href="javascript:void(0)" onclick = "regist()">注册</a>
+        </button>
+		<p>忘记密码？<a href="">立即找回</a></p>
+</div>
+<!-- 注册页面 -->
+      <div id="regist-box" >
+    <div class="tuichu">
+        <a href="javascript:void(0)" onclick = "registquxiao()">
+            <img src="img/quxiao.png"/ width="25">
+        </a>
+    </div>
+		<h1>欢迎,请注册</h1>
+		<div class="form">
+			<div class="item">
+			   <i>账&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp号</i>：<input type="text" placeholder="以英文字母开头、可加数字或下划线！">
+			</div>
+			<div class="item">
+			   <i class="fa fa-search" style="font-size:24px"></i>
+			   <i>密&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp码：</i><input type="password" placeholder="密码至少要6个字符！">
+			</div>
+            <div class="item">
+
+			<i>确认密码：</i><input type="password" placeholder="与登录密码保持一致！">
+			</div>
+		</div>
+         <div class="radio">
+				<h4>您的性别：
+                <input type="radio" id="sex1" name="sex">
+                <label for="sex1">男</label>
+				<input type="radio" id="sex2" name="sex">
+                <label for="sex2">女</label>
+				<input type="radio" id="sex2" name="sex">
+                <label for="sex2">保密</label>
+            </div>
+             <div class="select">
+                 <h4>籍&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp贯：
+             <select>
+                <option value="——">——————</option>
+                <option value="cq">重庆</option>
+                <option value="sc">四川</option>
+                <option value="bj">北京</option>
+                <option value="db">东北</option>
+            </select>   </div>
+            <div class="agree">
+                <input type="checkbox" name="agree">我已阅读并同意<a href="#">《用户注册手册》</a>
+            </div>
+
+		<button>
+            <a href="javascript:void(0)" onclick="querenregist()">确认注册</a></button>
+    </div>
+<!-- 中间导航栏 -->
+<div class="daohanglan">
+    <a href="javascript:void(0)" onclick="guanjun()"><div id="pifu"><h2>冠军皮肤开售</h2>
+    </div></a>
+    <a href="javascript:void(0)" onclick="banjia()"><div id="half"><h2>全场半价</h2>
+    </div></a>
+    <div id="banjia">
+    <img src="img/half.png" width="100%" height="80%">
+    </div>
+    <a href="javascript:void(0)" onclick="haikesi()"><div id="duihuan"><h2>紫色宝石半价兑换</h2>
+    </div></a>
+    <div id="baoshi">
+    <img src="img/duihuan.png" width="100%" height="80%">
+    </div>
+    <a href="javascript:void(0)" onclick="zhoubian()"><div id="zhoubian"><h2>游戏周边</h2>
+    </div></a>
+
+   <!-- 轮播图 -->
+     <div id="hz">
+        <img src="img/hz.jpg">
+    </div>
+    <div id="box">
+    <ul class="picture">
+    <li class="img active"><img src="img/efls.jpg"></li>
+    <li class="img"><img src="img/zy.jpg"></li>
+    <li class="img"><img src="img/glfs.jpg"></li>
+    <li class="img"><img src="img/fyg.jpg"></li>
+    <li class="img"><img src="img/ym.jpg"></li>
+
+  </ul>
+  <ul class="pointList">
+    <li class="point active" data-index = 0></li>
+    <li class="point" data-index = 1></li>
+    <li class="point" data-index = 2></li>
+    <li class="point" data-index = 3></li>
+    <li class="point" data-index = 4></li>
+  </ul>
+  <button class="btn" id="leftBtn"> < </button>
+  <button class="btn" id="rightBtn"> > </button>
+  </div>
+</div>
+  <div id="shangping">
+	<ul id="shangping2">
+          <li>
+            <a href=""><img src="img/1.png" width="345" height="330">
+            <p>【全款】APEX-K/DA 阿狸1/7 中型雕塑</p>
+            <p>¥899.00</p></a>
+          </li>
+          <li>
+            <a href=""><img src="img/2.png" width="345" height="330">
+            <p>星之守护者索拉卡手办</p>
+            <p>¥199.00</p></a>
+          </li>
+          <li>
+            <a href=""><img src="img/3.png" width="345" height="330">
+            <p>太空律动 布里茨 XL手办</p>
+            <p>¥260.00</p></a>
+          </li>
+          <li>
+            <a href=""><img src="img/4.png" width="345" height="330">
+            <p>双城之战发条猴子</p>
+            <p>¥1299.00</p></a>
+          </li>
+	</ul>
+</div>
+
+
+<!-- 页脚 -->
+<div id="footer">
+  <a href="#">腾讯互娱</a>
+  <span>|</span>
+  <a href="#">服务条款</a>
+  <span>|</span>
+  <a href="#">隐私保护指引</a>
+  <span>|</span>
+  <a href="#">儿童隐私保护指引</a>
+  <span>|</span>
+  <a href="#">腾讯游戏招聘</a>
+  <span>|</span>
+  <a href="#">腾讯游戏客服</a>
+  <span>|</span>
+  <a href="#">游戏列表</a>
+  <span>|</span>
+  <a href="#">成长守护平台</a>
+  <span>|</span>
+  <a href="#">广告服务及商务合作</a>
+
+        <p>COPYRIGHT © 1998 – 2022 TENCENT. ALL RIGHTS RESERVED.</p>
+        <p>腾讯公司 版权所有</p>
+</div>
+</div>
+<script>
+
+  var imgs = document.querySelectorAll(".img");//图片
+  var points = document.querySelectorAll(".point")//点
+  var left = document.getElementById("leftBtn");//左右按钮
+  var right = document.getElementById("rightBtn");
+  var all = document.querySelector(".box")
+  var index = 0;
+  var time = 0;//定时器跳转参数初始化
+
+
+  //清除active方法
+  var clearActive = function () {
+    for (i = 0; i < imgs.length; i++) {
+      imgs[i].className = 'img';
+    }
+    for (j = 0; j < points.length; j++) {
+      points[j].className = 'point';
+    }
+  }
+
+  //改变active方法
+  var goIndex = function () {
+    clearActive();
+    imgs[index].className = 'img active';
+    points[index].className = 'point active'
+  }
+  //左按钮事件
+  var goLeft = function () {
+    if (index == 0) {
+      index = 4;
+    } else {
+      index--;
+    }
+    goIndex();
+  }
+
+  //右按钮事件
+  var goRight = function () {
+    if (index < 4) {
+      index++;
+    } else {
+      index = 0;
+    }
+    goIndex();
+  }
+
+
+  //绑定点击事件监听
+  left.addEventListener('click', function () {
+    goLeft();
+    time = 0;//计时器跳转清零
+  })
+
+  right.addEventListener('click', function () {
+    goRight();
+    time = 0;//计时器跳转清零
+  })
+
+  for(i = 0;i < points.length;i++){
+    points[i].addEventListener('click',function(){
+      var pointIndex = this.getAttribute('data-index')
+      index = pointIndex;
+      goIndex();
+      time = 0;//计时器跳转清零
+    })
+  }
+  //计时器
+  var timer;
+  function play(){
+    timer = setInterval(() => {
+      time ++;
+      if(time == 20 ){
+        goRight();
+        time = 0;
+      }
+    },100)
+  }
+  play();
+  //移入清除计时器
+  all.onmousemove = function(){
+    clearInterval(timer)
+  }
+  //移出启动计时器
+  all.onmouseleave = function(){
+    play();
+  }
+    </script>
+</body>
+</html>
